@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Life Code | C Life</title>
+  <meta content="" name="description">
+  <meta content="" name="Life Code Internship,Life Code, Code, LIfe, Life internship, code internship, C life internship, code internship,
+  Life internship, Life code c life, life code internship, code intern, life code intern">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!-- <h1 class="logo"><a href="index.html">Life Code</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/logo.png">Life Code<alt="" class="img-fluid"></a>
+
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="about.html">About</a></li>
+          <li><a class="nav-link scrollto" href="internship domains.html">Internship</a></li>
+          <!--<li><a class="nav-link scrollto " href="#portfolio">Projects</a></li>-->
+          <li><a class="nav-link scrollto" href="Careers.html">Careers</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          <li><a class="getstarted scrollto" href="login.html">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section class="breadcrumbs">
+      <div class="container">
+
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Internship Domain</li>
+        </ol>
+        <h2>Internship Application</h2>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <h3 style="text-align: center; margin-top: 2rem;">Internship Application Form</h3>
+
+    <div class="row">
+      <div class="box-area">
+        <form action="forms/internship.php" method="POST" style=" margin: 0 auto;width:450px; margin-top: 1rem;"
+          enctype="multipart/form-data">
+          <center>
+            <h3 id="headertag"></h3>
+            <input style="margin-top: 1rem;" type="hidden" class="form-control" id="JobCode" name="JobCode"
+              placeholder="Enter your name">
+            <input style="margin-top: 1rem;" type="hidden" class="form-control" id="JobTitle" name="JobTitle"
+              placeholder="Enter your name">
+          </center>
+          <div style="margin-top: 1rem;" class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp"
+              placeholder="Enter your full name" required>
+          </div>
+          <div style="margin-top: 1rem;" class="form-group">
+            <label for="emailAddress">Email address</label>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp"
+              placeholder="Enter email" required>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div style="margin-top: 1rem;" class="form-group">
+            <label for="intern_domain">Select Intern Domain</label>
+            <select class="form-control" id="internDomain" name="internDomain" required>
+              <option value="" selected>Choose</option>
+              <option value="+91">Web Development</option>
+              <option value="+20">Python Development</option>
+              <option value="+52">Java Development</option>
+              <option value="+86">Artificial Intelligence</option>
+              <option value="+61">Andriod Development</option>
+              <option value="+44">Data Science</option>
+            </select>
+           <div style="margin-top: 1rem;" class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password" aria-describedby="emailHelp"
+                placeholder="Enter password" required>
+
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="">Gender</label>
+              </br>
+              <input type="radio" class="form-check-input" id="gender" name="gender" value="Male" required>Male
+              <input type="radio" class="form-check-input" id="gender" name="gender" value="Female" required>Female
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="exampleInputEmail1">Mobile Number</label>
+              <input type="number" class="form-control" id="mobileNumber" name="mobileNumber"
+                aria-describedby="emailHelp" placeholder="Enter mobile number" required>
+              <small id="emailHelp" class="form-text text-muted">Please enter whatsapp number for further
+                communications.</small>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="exampleInputEmail1">Linkedin Profile Link</label>
+              <input type="text" class="form-control" id="linkedinProfileLink" name="linkedinProfileLink"
+                aria-describedby="emailHelp" placeholder="Enter your linkedin profile link" required>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="exampleInputEmail1">Github Link</label>
+              <input type="text" class="form-control" id="githubLink" name="githubLink" aria-describedby="emailHelp"
+                placeholder="Enter your github link" required>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="sel1">Select Qualification</label>
+              <select class="form-control" id="qualification" name="qualification" required>
+                <option value="" selected>Choose</option>
+                <option value="BE">BE</option>
+                <option value="B Tech">B Tech</option>
+                <option value="Diploma">Diploma</option>
+                <option value="BCS"> BCS</option>
+                <option value="MCS">MCS</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="BSC">BSC</option>
+              </select>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="exampleInputEmail1">Stream Name</label>
+              <input type="text" class="form-control" id="streamName" name="streamName" aria-describedby="emailHelp"
+                placeholder="Enter your stream name" required>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="exampleInputEmail1">College Name</label>
+              <input type="text" class="form-control" id="collegename" name="collegename" aria-describedby="emailHelp"
+                placeholder="Enter your college name" required>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="sel1">Passing Year</label>
+              <select class="form-control" id="passingYear" name="passingYear" required>
+                <option value="" selected>Choose</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+              </select>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <label for="exampleInputPassword1">Resume</label>
+              <input type="file" class="form-control" id="pdf" name="pdf_file" accept="application/pdf" required>
+            </div>
+            <div style="margin-top: 1rem;" class="form-group">
+              <input type="hidden" class="form-control" id="date" name="date" placeholder="Enter your name">
+              <input type="hidden" class="form-control" id="time" name="time" placeholder="Enter your name">
+            </div>
+            <div style="margin-top: 1rem;" class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+              <label class="form-check-label" for="exampleCheck1">Accept <a href="TermsConditions.html"
+                  target="_blank"><span style="color: blue; "><b><u>Terms & Conditions</u></b></span></a></label>
+            </div>
+            <button style="margin-top: 1rem; margin-bottom: 1rem; background-color: #22CFB8; border-color: #22CFB8;"
+              type="submit" id="submit" name="submit" class="btn btn-primary">Apply</button>
+        </form>
+      </div>
+    </div>
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Life Code</h3>
+              <p class="pb-3"><em>our goal is to empower the next genration of tech leaders. our internship program
+                  hands-on experience in different fields. To obtain all things ,who want in life.</em>
+              </p>
+              <p>
+                201,Tech Complex<br>
+                6th Floor,Near<br> Dominos pizza
+                Pune, India <br>
+                <strong>Phone:</strong> +91 6387537993<br>
+                <strong>Email:</strong> contact.lifeCode.intern@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="internship domains.html">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="TermsConditions.html">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="TermsConditions.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="internship domains.html">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="internship domains.html">Python Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="internship domains.html">Java Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="internship domains.html">Android Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="internship domains.html">Data Science</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Jion the Virtual Internship program in technologies
+              with Life Code</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Life Code</span></strong>. All Rights Reserved
+        2023
+      </div>
+      <div class="credits">
+        Designed by <a><strong>Life Code</strong></a>
+      </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-internship applictaion-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
